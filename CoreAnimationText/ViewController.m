@@ -18,6 +18,8 @@
     [super viewDidLoad];
     
     self.view.backgroundColor = [UIColor redColor];
+    
+    self.title = @"GGG";
 }
 
 - (void)didReceiveMemoryWarning {
