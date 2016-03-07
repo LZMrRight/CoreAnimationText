@@ -9,7 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-
+@property(nonatomic,strong) UIView *redView;
 @end
 
 @implementation ViewController
@@ -17,9 +17,23 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.view.backgroundColor = [UIColor redColor];
-    
-    self.title = @"GGG";
+    self.redView = [[UIView alloc]initWithFrame:CGRectMake(40, 40, 100, 100)];
+    self.redView.backgroundColor = [UIColor redColor];
+    [self.view addSubview:self.redView];
+
+    self.view.layer.contents = (id)[UIImage imageNamed:@"0"].CGImage;
+
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+
+    [UIView animateWithDuration:2.f animations:^{
+//        [_redView.layer setValue:@(M_PI) forKeyPath:@"transform.rotation"];
+        
+        _redView.layer.transform = CATransform3DMakeRotation(M_PI, 0, 0, 1);
+        
+
+    }];
 }
 
 - (void)didReceiveMemoryWarning {

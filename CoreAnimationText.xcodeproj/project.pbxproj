@@ -15,6 +15,7 @@
 		843AE6AE1C8D74A900E14EB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843AE6AC1C8D74A900E14EB4 /* LaunchScreen.storyboard */; };
 		843AE6B91C8D74A900E14EB4 /* CoreAnimationTextTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 843AE6B81C8D74A900E14EB4 /* CoreAnimationTextTests.m */; };
 		843AE6C41C8D74A900E14EB4 /* CoreAnimationTextUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 843AE6C31C8D74A900E14EB4 /* CoreAnimationTextUITests.m */; };
+		84F71BBA1C8D86E60050B79C /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F71BB91C8D86E60050B79C /* 0.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		843AE6BF1C8D74A900E14EB4 /* CoreAnimationTextUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreAnimationTextUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		843AE6C31C8D74A900E14EB4 /* CoreAnimationTextUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreAnimationTextUITests.m; sourceTree = "<group>"; };
 		843AE6C51C8D74A900E14EB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84F71BB91C8D86E60050B79C /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				843AE6A21C8D74A900E14EB4 /* AppDelegate.m */,
 				843AE6A41C8D74A900E14EB4 /* ViewController.h */,
 				843AE6A51C8D74A900E14EB4 /* ViewController.m */,
+				84F71BB91C8D86E60050B79C /* 0.png */,
 				843AE6A71C8D74A900E14EB4 /* Main.storyboard */,
 				843AE6AA1C8D74A900E14EB4 /* Assets.xcassets */,
 				843AE6AC1C8D74A900E14EB4 /* LaunchScreen.storyboard */,
@@ -243,6 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84F71BBA1C8D86E60050B79C /* 0.png in Resources */,
 				843AE6AE1C8D74A900E14EB4 /* LaunchScreen.storyboard in Resources */,
 				843AE6AB1C8D74A900E14EB4 /* Assets.xcassets in Resources */,
 				843AE6A91C8D74A900E14EB4 /* Main.storyboard in Resources */,
@@ -496,6 +500,7 @@
 				843AE6CA1C8D74A900E14EB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		843AE6CB1C8D74A900E14EB4 /* Build configuration list for PBXNativeTarget "CoreAnimationTextTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +509,7 @@
 				843AE6CD1C8D74A900E14EB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		843AE6CE1C8D74A900E14EB4 /* Build configuration list for PBXNativeTarget "CoreAnimationTextUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +518,7 @@
 				843AE6D01C8D74A900E14EB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
