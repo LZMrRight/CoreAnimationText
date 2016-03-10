@@ -20,7 +20,13 @@
     self.redView = [[UIView alloc]initWithFrame:CGRectMake(40, 40, 100, 100)];
     self.redView.backgroundColor = [UIColor redColor];
     [self.view addSubview:self.redView];
-
+    /**
+     *  <#Description#>
+     *
+     *  @param id <#id description#>
+     *
+     *  @return <#return value description#>
+     */
     self.view.layer.contents = (id)[UIImage imageNamed:@"0"].CGImage;
 
 }
